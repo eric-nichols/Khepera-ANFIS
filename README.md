@@ -3,4 +3,4 @@ Matlab Adaptive Neural Fuzzy Inference System (ANFIS) controller for the Khepera
 
 The code requires:
   1. Matlab's Fuzzy Logic Toolbox.
-  2. Khepera robot or open source KiKS simulator with modified reference to the Khepera as explained in the KiKS user guide (on line 23 of the code). 
+  2. Khepera robot or open source KiKS simulator with modified reference to the Khepera as explained in the KiKS user guide (on line 24 of the code). 
