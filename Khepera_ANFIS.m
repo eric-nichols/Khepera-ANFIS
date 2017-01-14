@@ -23,11 +23,11 @@ global anfisOutput ref out_fis positive v FORWARD LEFT RIGHT trainingData
 % Open our reference to the Khepera
 ref = kopen([0, 9600, 100]);
 
-FORWARD =   0;       % 0==forward
-LEFT    =  .2;       % .2==left
-RIGHT   = -.2;       % -.2==right
+FORWARD    =   0;    % 0==forward
+LEFT       =  .2;    % .2==left
+RIGHT      = -.2;    % -.2==right
 ambientOLD = 500;    % brightest ambient lighting
-epoch_n = 20;        % number of epocs to train
+epoch_n    = 20;     % number of epocs to train
 trainingMatrix( 0 ); % get initial training data
 
 % generate an initial fuzzy inference system with the
@@ -85,7 +85,7 @@ for i=1:300
 end % end for
 
 kSetSpeed(ref,0,0); % stop the Kepera
-kclose(ref); % close the reference to the Khepera
+kclose(ref);        % close the reference to the Khepera
 end
 
 %This function is called to turn the Khepera robot
